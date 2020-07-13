@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Final_Project.GUI;
+using Final_Project.GUI.User;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace Final_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Admin_Form());
         }
     }
 }
